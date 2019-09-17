@@ -143,14 +143,12 @@ margin-left: 35px;
 .subscribe-form input::-moz-placeholder          {color: #b1c3ee;}/* Firefox 19+ */
 .subscribe-form input:-moz-placeholder           {color: #b1c3ee;}/* Firefox 18- */
 .subscribe-form input:-ms-input-placeholder      {color: #b1c3ee;}
-
 .button-subscribe{
-	outline: none;	
+outline: none;
 }
 .button-subscribe:hover{
-	background-color: transparent;
+background-color: transparent;
 }
-
 /***************BUTTON*******************/
 .btn-group a + a{
 margin-left: 15px;
@@ -228,43 +226,42 @@ color: #fff;
 background-color: #1085e4;
 border-radius: 30px;
 }
-
 /*************************PAGE-GRID**************************/
 .grid{
-	display: grid;
-	grid-template-areas: "a b c"
-	                     "d b c"
-	                     "d f g"
-	                     "e f g"
-	                     "e h h";
-	max-width: 1110px;
-	margin: 0 auto;
-	padding: 100px 0;
-	                     
+display: grid;
+grid-template-areas: "a b c"
+"d b c"
+"d f g"
+"e f g"
+"e h h";
+max-width: 1110px;
+margin: 0 auto;
+padding: 100px 0;
+
 }
 .grid-title{
-	grid-area: a;
+grid-area: a;
 }
 .grid-item-1{
-grid-area: b;	
+grid-area: b;
 }
 .grid-item-2{
-grid-area: c;	
+grid-area: c;
 }
 .grid-item-3{
-grid-area: d;	
+grid-area: d;
 }
 .grid-item-4{
-grid-area: e;	
+grid-area: e;
 }
 .grid-item-5{
-grid-area: f;	
+grid-area: f;
 }
 .grid-item-6{
-grid-area: g;	
+grid-area: g;
 }
 .grid-text{
-	grid-area: h;
+grid-area: h;
 }
 .grid h2{
 font-size: 40px;
@@ -298,44 +295,44 @@ line-height: 26px;
 color: #1085e4;
 }
 .grid-item{
-	text-align: center;
-	box-shadow: 0px 8px 16px 0px rgba(180,180,181,0.2);
-	padding: 40px 20px;
-	margin: 15px;
+text-align: center;
+box-shadow: 0px 8px 16px 0px rgba(180,180,181,0.2);
+padding: 40px 20px;
+margin: 15px;
 }
 .grid-icon{
-	background-repeat: no-repeat;
-	margin: 0 auto 36px;
+background-repeat: no-repeat;
+margin: 0 auto 36px;
 }
 .grid-icon-1{
-	background-image: url(../img/icon2.png);
-    width: 74px;
-	height: 81px;
+background-image: url(../img/icon2.png);
+width: 74px;
+height: 81px;
 }
 .grid-icon-2{
-	background-image: url(../img/icon3.png);
-	width: 89px;
-	height: 86px;
+background-image: url(../img/icon3.png);
+width: 89px;
+height: 86px;
 }
 .grid-icon-3{
-	background-image: url(../img/icon.png);
-	width: 79px;
-	height: 81px;
+background-image: url(../img/icon.png);
+width: 79px;
+height: 81px;
 }
 .grid-icon-4{
-	background-image: url(../img/icon4.png);
-	width: 102px;
-	height: 89px;
+background-image: url(../img/icon4.png);
+width: 102px;
+height: 89px;
 }
 .grid-icon-5{
-	background-image: url(../img/icon5.png);
-	width: 87px;
-	height: 90px;
+background-image: url(../img/icon5.png);
+width: 87px;
+height: 90px;
 }
 .grid-icon-6{
-	background-image: url(../img/icon6.png);
-	width: 103px;
-	height: 92px;
+background-image: url(../img/icon6.png);
+width: 103px;
+height: 92px;
 }
 /*************************PAGE-COMPANY*********************/
 .page-company{
@@ -521,6 +518,12 @@ letter-spacing: -0.03,0.2em;
 color:#fff;
 display: inline-block;
 line-height: 0;
+}
+.activ span.activ-span{
+color: #7b8ab2;
+}
+.box-price-item span.activ-span{
+color:#7b8ab2;
 }
 .activ span.activ-span{
 color: #7b8ab2;
